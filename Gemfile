@@ -50,6 +50,8 @@ group :development, :test do
   gem "debug", platforms: %i[ mri windows ]
   gem "rspec-rails"
   gem "dotenv"
+  gem 'faker'
+  gem 'pry-rails'
 end
 
 group :development do
